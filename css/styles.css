@@ -1,11 +1,17 @@
 
 body {
 	background-color: #DCDCDC; /* grey */
+	height: 100vh; 
+	/* The viewport-percentage lengths are relative to the size of the initial
+	containing block.When the height or width of the initial containing block
+	is changed, they are scaled accordingly. */
 }
 
 .container {
 	background-color: #2B60DE; /* royal blue */
-	min-height: 100% !important;
+	height: 100vh;
+    overflow-y:auto;
+
 }
 
 h1 {
