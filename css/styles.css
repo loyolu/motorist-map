@@ -1,0 +1,21 @@
+
+body {
+	background-color: #DCDCDC; /* grey */
+}
+
+.container {
+	background-color: #2B60DE; /* royal blue */
+	min-height: 100% !important;
+}
+
+h1 {
+	color: #FFEAA8;
+	text-align: center;
+	font-size: 3em;
+}
+
+h2 {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
