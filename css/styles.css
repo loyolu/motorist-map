@@ -7,7 +7,6 @@ body {
 	is changed, they are scaled accordingly. */
 }
 
-
 h1 {
 	color: #FFEAA8;
 	text-align: center;
@@ -34,4 +33,16 @@ input{
 	color: white;
 	text-align: center;
 	font-size: 1.35em;
+}
+
+#map-canvas {
+	height: 350px;
+	width: 700px;
+	display: block;
+	margin: auto;
+}
+
+.maps {
+	height: 100%;
+	width: 100%;
 }
