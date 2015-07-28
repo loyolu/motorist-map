@@ -11,12 +11,15 @@ h1 {
 	color: #FFEAA8;
 	text-align: center;
 	font-size: 3.5em;
+	font-family: Optima, Calibri, Arial, sans-serif; 
+	font-weight: bold;
 }
 
 h2 {
 	color: white;
-	font-size: 2em;
 	text-align: center;
+	font-size: 1.5em;
+	font-weight: normal;
 }
 
 .container {
@@ -37,7 +40,7 @@ input{
 
 #map-canvas {
 	height: 350px;
-	width: 700px;
+	width: 100%;
 	display: block;
 	margin: auto;
 }
@@ -45,4 +48,24 @@ input{
 .maps {
 	height: 100%;
 	width: 100%;
+}
+
+.flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.flexible-container iframe,   
+.flexible-container object,  
+.flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-height: 0;
+    margin-width: 0;
 }
